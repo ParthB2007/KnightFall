@@ -1,4 +1,4 @@
-def into_banner():
+def banner():
 
 
 
@@ -31,7 +31,7 @@ def into_banner():
 
 
 def main():
-    into_banner()
+    banner()
 
 
 if __name__ == "__main__":
