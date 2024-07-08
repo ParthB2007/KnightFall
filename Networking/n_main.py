@@ -1,4 +1,4 @@
-def n_main():
+def main():
     n_banner = """
     -----------------------------------------------------
                       Networking Tools
@@ -7,4 +7,4 @@ def n_main():
     print(n_banner)
 
 if __name__ == '__main__':
-    n_main()
+    main()
