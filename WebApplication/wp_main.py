@@ -1,5 +1,5 @@
 import os
-import crawler
+import crawler.genral
 
 green = "\33[92m"
 print(green)
@@ -22,7 +22,7 @@ def wp_optionpanel():
               )
         option = int(input("\nSelect option > "))
         if option == 1:
-            crawler.main()
+            
             break
         
         if option == 2:  
