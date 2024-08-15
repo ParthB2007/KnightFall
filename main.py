@@ -62,7 +62,7 @@ def help_panel():
     tree = r"""
 Project KnightFall
     ├── Information_Gathering
-    │   ├── Web Web_Crwaler
+    │   ├── Web Web_Crawler
     │   ├── Hidden File Enumeration
     │   └── Open Port Scanner
     │

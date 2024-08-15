@@ -1,0 +1,16 @@
+web-servers: Nginx
+font-scripts: Google Font API
+cms: WordPress
+programming-languages: PHP
+blogs: PHP, WordPress
+cache-tools: WordPress Super Cache
+javascript-frameworks: jQuery
+
+IP Address: 103.21.59.165
+
+Server Headers:
+Date: Thu, 15 Aug 2024 12:31:04 GMT
+Server: Apache
+Keep-Alive: timeout=5, max=75
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1

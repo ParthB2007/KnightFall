@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">KnightFall</div>
+        <div class="nav-buttons">
+            <a href="{{ url_for('index') }}">Recon Scan</a>
+            <a href="{{ url_for('web_crawler_page') }}">Web Crawler</a>
+            <a href="{{ url_for('hidden_web_enumeration_page') }}">Hidden Web Enumeration</a>
+            <a href="{{ url_for('open_port_scanner_page') }}">Open Port Scanner</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Results</h1>
+
+        <!-- Filter Input -->
+        <input type="text" id="filterInput" placeholder="Filter by extension..." onkeyup="filterResults()">
+
+        <div class="section">
+            {% for ext, links in content.items() %}
+            <div class="extension-section" data-extension="{{ ext }}">
+                <h2>Extension: {{ ext }}</h2>
+                <ul>
+                    {% for link in links %}
+                    <li><a href="{{ link }}" target="_blank">{{ link }}</a></li>
+                    {% endfor %}
+                </ul>
+                <hr>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <script>
+        function filterResults() {
+            const input = document.getElementById('filterInput').value.toLowerCase();
+            const sections = document.querySelectorAll('.extension-section');
+
+            sections.forEach(section => {
+                const ext = section.getAttribute('data-extension').toLowerCase();
+                if (ext.includes(input)) {
+                    section.style.display = '';
+                } else {
+                    section.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,361 @@
+/* General Layout */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1b1b1b;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+h1 {
+    font-size: 2.6em;
+    color: #3ab77c;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Navigation Buttons */
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nav-buttons a {
+    color: #f5f5f5;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.nav-buttons a:hover {
+    color: #2a9d77;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #333;
+    color: #f5f5f5;
+    font-size: 1em;
+}
+
+button {
+    background-color: #3ab77c;
+    color: #f5f5f5;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2a9d77;
+}
+
+/* Protocol Switch Styling */
+.protocol-switch {
+    display: flex;
+}
+
+.protocol-switch input[type="radio"] {
+    display: none;
+}
+
+.switch-option {
+    padding: 10px 20px;
+    border: 1px solid #333;
+    /* border-radius: 4px; */
+    background-color: #333;
+    color: #f5f5f5;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    flex: 1;
+    margin: 0;
+}
+
+.switch-option:not(:last-child) {
+    border-right: none;
+}
+
+.switch-option:hover {
+    background-color: #3ab77c;
+}
+
+/* Selected State */
+input[type="radio"]:checked + .switch-option {
+    background-color: #3ab77c;
+    color: #fff;
+    border-color: #3ab77c;
+}
+
+/* Horizontal Rule Styling */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #3ab77c;
+    margin: 20px 0;
+}
+
+/* Preformatted Text Styling */
+pre {
+    background-color: #333;
+    color: #f5f5f5;
+    font-size: larger;
+    padding: 15px;
+    border-radius: 4px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* Link Styling */
+a {
+    color: #3ab77c;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #222;
+    border-bottom: 2px solid #3ab77c;
+    color: #f5f5f5;
+}
+
+.header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #3ab77c;
+}
+
+.header .nav-buttons a {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.header .nav-buttons a:hover {
+    color: #3ab77c;
+}
+
+/* Verbose Toggle Switch */
+.verbose-label {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.toggle-switch {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 30px;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #333;
+    border-radius: 27px;
+    transition: background-color 0.3s ease;
+}
+
+.switch:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 2px;
+    bottom: 2px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+input:checked + .switch {
+    background-color: #3ab77c;
+}
+
+input:checked + .switch:before {
+    transform: translateX(26px);
+}
+
+
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3ab77c;
+    color: #1e1e1e;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.back-button:hover {
+    color: #ffffff;
+}
+
+/* General Layout */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1b1b1b;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #222;
+    border-bottom: 2px solid #3ab77c;
+    color: #f5f5f5;
+}
+
+.header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #3ab77c;
+}
+
+.header .nav-buttons {
+    display: flex;
+}
+
+.header .nav-buttons a {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+    transition: color 0.3s;
+}
+
+.header .nav-buttons a:hover {
+    color: #3ab77c;
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 2.6em;
+    color: #3ab77c;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Section Styling */
+.section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #3ab77c;
+}
+
+/* Horizontal Rule Styling */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #3ab77c;
+    margin: 20px 0;
+}
+
+/* Preformatted Text Styling */
+pre {
+    background-color: #333;
+    color: #f5f5f5;
+    font-size: larger;
+    padding: 15px;
+    border-radius: 4px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* Back Button Styling */
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3ab77c;
+    color: #1e1e1e;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+}
+
+.back-button:hover {
+    background-color: #2a9d77;
+    color: #ffffff;
+}

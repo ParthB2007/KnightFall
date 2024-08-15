@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scan Results</title>
+    <title>Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
+
 <body>
-    <h1>Scan Results for {{ url }}</h1>
+    <header class="header">
+        <div class="logo">KnightFall</div>
+        <div class="nav-buttons">
+            <a href="{{ url_for('index') }}">Recon Scan</a>
+            <a href="{{ url_for('web_crawler_page') }}">Web Crawler</a>
+            <a href="{{ url_for('hidden_web_enumeration_page') }}">Hidden Web Enumeration</a>
+            <a href="{{ url_for('open_port_scanner_page') }}">Open Port Scanner</a>
+        </div>
+    </header>
 
-    <h2>Technology Stack:</h2>
-    <pre>{{ results.tech }}</pre>
+    <div class="container">
+        <h1>Results</h1>
+        <div class="section">
+            <!-- Render the content as safe HTML -->
+            {{ content | safe}}
+            <hr>
+        </div>
+    </div>
 
-    <h2>SSL/TLS Details:</h2>
-    <pre>{{ results.ssl_tls }}</pre>
-
-    <h2>WHOIS Information:</h2>
-    <pre>{{ results.whois }}</pre>
-
-    <h2>Open Ports:</h2>
-    <pre>{{ results.ports }}</pre>
-
-    <a href="/">Run Another Scan</a>
 </body>
+
 </html>

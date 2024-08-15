@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recon Scan</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">KnightFall</div>
+        <div class="nav-buttons">
+            <a href="{{ url_for('index') }}">Recon Scan</a>
+            <a href="{{ url_for('web_crawler_page') }}">Web Crawler</a>
+            <a href="{{ url_for('hidden_web_enumeration_page') }}">Hidden Web Enumeration</a>
+            <a href="{{ url_for('open_port_scanner_page') }}">Open Port Scanner</a>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Recon Scan</h1>
+        <p class="description">
+            The Recon Scan Tool is designed to perform reconnaissance on a given URL.
+            Enter a URL and choose whether to enable verbose output for more detailed results.
+            This tool helps in gathering information about the specified URL for analysis.
+        </p>
+
+        <form method="post">
+            <div class="section">
+                <label for="url">URL</label>
+                <input type="text" id="url" name="url" required>
+            </div>
+            <div class="section">
+                <label for="verbose" class="verbose-label">Verbose</label>
+                <div class="toggle-switch">
+                    <input type="checkbox" id="verbose" name="verbose">
+                    <label for="verbose" class="switch"></label>
+                </div>
+            </div>
+            <button type="submit">Scan</button>
+        </form>
+    </div>
+</body>
+
+</html>

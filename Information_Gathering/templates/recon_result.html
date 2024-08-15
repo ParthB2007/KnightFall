@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">KnightFall</div>
+        <div class="nav-buttons">
+            <a href="{{ url_for('index') }}">Recon Scan</a>
+            <a href="{{ url_for('web_crawler_page') }}">Web Crawler</a>
+            <a href="{{ url_for('hidden_web_enumeration_page') }}">Hidden Web Enumeration</a>
+            <a href="{{ url_for('open_port_scanner_page') }}">Open Port Scanner</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Results</h1>
+
+        <div class="section">
+            <ul>
+                {{content | safe}}
+            </ul>
+            <hr>
+        </div>
+    </div>
+
+</body>
+
+</html>

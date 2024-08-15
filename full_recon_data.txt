@@ -1,0 +1,39 @@
+Test Performed at 2024-08-16 00:22:35
+
+
+Technology Stack:
+------------------------------
+web-servers: Nginx
+font-scripts: Google Font API
+cms: WordPress
+programming-languages: PHP
+blogs: PHP, WordPress
+cache-tools: WordPress Super Cache
+javascript-frameworks: jQuery
+
+
+SSL/TLS Details:
+------------------------------
+subject: 'commonName', 'tapidiploma.org',,
+issuer: 'countryName', 'US',, 'organizationName', "Let's Encrypt",, 'commonName', 'R10',
+version: 3
+serialNumber: 03AEDF1C08F23D469429C1C8C8AE2066D427
+notBefore: Jul 18 00:05:47 2024 GMT
+notAfter: Oct 16 00:05:46 2024 GMT
+subjectAltName: 'DNS', '*.tapidiploma.org', 'DNS', 'tapidiploma.org', 'DNS', 'www.moodle.tapidiploma.org'
+OCSP: 'http://r10.o.lencr.org',
+caIssuers: 'http://r10.i.lencr.org/',
+
+WHOIS Information:
+------------------------------
+Registrar: GoDaddy.com, LLC
+Creation Date: 2019-05-18 06:35:53
+Expiration Date: 2027-05-18 06:35:53
+Updated Date: 2024-07-30 06:49:02
+Name Servers: ns1.cp-in-4.webhostbox.net
+ns2.cp-in-4.webhostbox.net
+Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited,
+        clientRenewProhibited https://icann.org/epp#clientRenewProhibited,
+        clientTransferProhibited https://icann.org/epp#clientTransferProhibited,
+        clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+Organization: Domains By Proxy, LLC

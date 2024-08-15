@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Crawler</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">KnightFall</div>
+        <div class="nav-buttons">
+            <a href="{{ url_for('index') }}">Recon Scan</a>
+            <a href="{{ url_for('web_crawler_page') }}">Web Crawler</a>
+            <a href="{{ url_for('hidden_web_enumeration_page') }}">Hidden Web Enumeration</a>
+            <a href="{{ url_for('open_port_scanner_page') }}">Open Port Scanner</a>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Web Crawler</h1>
+        <div class="description">
+            <p>The Web Crawler tool is designed to explore and extract data from websites. Use this tool to crawl web
+                pages, gather links, and analyze website structures.</p>
+        </div>
+        <form method="post">
+            <div class="section">
+                <label for="url">URL </label>
+                <input type="text" id="url" name="url" required>
+            </div>
+            <div class="section">
+                <label for="max_depth">Max Depth </label>
+                <input type="number" id="max_depth" name="max_depth" min="1" value="2">
+            </div>
+            <div class="section">
+                <label for="thread_count">Thread Count </label>
+                <input type="number" id="thread_count" name="thread_count" min="1" value="4">
+            </div>
+            <div class="section">
+                <label for="extensions">File Extensions </label>
+                <input type="text" id="extensions" name="extensions" placeholder="e.g., .pdf,.jpg">
+            </div>
+            <button type="submit">Start Crawling</button>
+        </form>
+    </div>
+</body>
+
+</html>

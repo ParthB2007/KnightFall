@@ -1,16 +1,16 @@
 import os
 
 # Adjust the import statements based on your actual file names
-from Web_Crwaler import crawler
+from Web_Crawler import crawler
 from Hidden_File_Enumeration import fuzz
-from Port_Scanner import Port_scanner
+from Port_Scanner import port_scanner
 
 green = "\33[92m"
 print(green)
 
 def print_help():
     help_text = """
-1. Web Web_Crwaler:
+1. Web Web_Crawler:
    A tool for crawling websites to gather data from web pages, such as links and content.
 
 2. Hidden File Enumeration:
@@ -27,15 +27,15 @@ def ig_panel():
                 Information Gathering
 -----------------------------------------------------
     """
-    print(wp_banner + "\n")
+    print(wp_banner)
 
     temp = True
     while temp:
         print(f"""
-            1. Web Web_Crwaler 
-            2. Hidden File Enumeration
-            3. Open Port Scanner
-            4. Help
+    1. Web Crawler  
+    2. Hidden File Enumeration
+    3. Open Port Scanner
+    4. Help
     """)
         try:
             option = int(input("\nSelect option > "))

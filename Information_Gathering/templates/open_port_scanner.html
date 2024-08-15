@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Port Scanner</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">KnightFall</div>
+        <div class="nav-buttons">
+            <a href="{{ url_for('index') }}">Recon Scan</a>
+            <a href="{{ url_for('web_crawler_page') }}">Web Crawler</a>
+            <a href="{{ url_for('hidden_web_enumeration_page') }}">Hidden Web Enumeration</a>
+            <a href="{{ url_for('open_port_scanner_page') }}">Open Port Scanner</a>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Open Port Scanner</h1>
+        <div class="description">
+            <p>The Open Port Scanner tool identifies open ports and their associated services on a target system.
+                Utilize this tool to assess the network security of a system.</p>
+        </div>
+        <form method="post">
+            <div class="section">
+                <label for="target">Target IP/Domain </label>
+                <input type="text" id="target" name="target" required>
+            </div>
+            <div class="section">
+                <label for="start-port">Start Port </label>
+                <input type="number" id="start-port" name="start-port" value="1" min="1">
+            </div>
+            <div class="section">
+                <label for="end-port">End Port </label>
+                <input type="number" id="end-port" name="end-port" value="1000" min="1">
+            </div>
+            <div class="section">
+                <label>Protocol </label>
+                <div class="protocol-switch">
+                    <input type="radio" id="tcp" name="protocol" value="tcp">
+                    <label for="tcp" class="switch-option">TCP</label>
+                    <input type="radio" id="both" name="protocol" value="both" checked>
+                    <label for="both" class="switch-option">Both</label>
+                    <input type="radio" id="udp" name="protocol" value="udp">
+                    <label for="udp" class="switch-option">UDP</label>
+                </div>
+            </div>
+            <div class="section">
+                <label for="timeout">Timeout (seconds) </label>
+                <input type="number" id="timeout" name="timeout" value="5" min="1">
+            </div>
+            <button type="submit">Start Scanning</button>
+        </form>
+    </div>
+</body>
+
+</html>
