@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scan Results</title>
+</head>
+<body>
+    <h1>Scan Results for {{ url }}</h1>
+
+    <h2>Technology Stack:</h2>
+    <pre>{{ results.tech }}</pre>
+
+    <h2>SSL/TLS Details:</h2>
+    <pre>{{ results.ssl_tls }}</pre>
+
+    <h2>WHOIS Information:</h2>
+    <pre>{{ results.whois }}</pre>
+
+    <h2>Open Ports:</h2>
+    <pre>{{ results.ports }}</pre>
+
+    <a href="/">Run Another Scan</a>
+</body>
+</html>

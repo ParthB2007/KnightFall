@@ -1,0 +1,21 @@
+web-servers - Details: IIS, Version: unknown
+operating-systems - Details: Windows Server, Version: unknown
+font-scripts - Details: Google Font API, Ionicons, Version: unknown
+maps - Details: Google Maps, Version: unknown
+widgets - Details: OWL Carousel, Version: unknown
+javascript-frameworks - Details: jQuery, Version: unknown
+photo-galleries - Details: jQuery, OWL Carousel, Version: unknown
+web-frameworks - Details: Twitter Bootstrap, Version: unknown
+video-players - Details: YouTube, Version: unknown
+Google Font API - Details: N/A, Version: unknown
+animate.css - Details: N/A, Version: unknown
+YouTube - Details: N/A, Version: unknown
+OWL Carousel - Details: N/A, Version: unknown
+PHP - Details: N/A, Version: unknown
+Bootstrap - Details: N/A, Version: unknown
+jQuery - Details: N/A, Version: unknown
+jQuery Migrate - Details: N/A, Version: unknown
+Ionicons - Details: N/A, Version: unknown
+IIS - Details: N/A, Version: unknown
+Windows Server - Details: N/A, Version: unknown
+Google Maps - Details: N/A, Version: unknown

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Recon</title>
+</head>
+<body>
+    <h1>Web Recon</h1>
+    <form action="/scan" method="POST">
+        <label for="url">URL:</label>
+        <input type="text" id="url" name="url" required><br><br>
+
+        <label for="start_port">Start Port:</label>
+        <input type="number" id="start_port" name="start_port" value="1"><br><br>
+
+        <label for="end_port">End Port:</label>
+        <input type="number" id="end_port" name="end_port" value="1000"><br><br>
+
+        <label for="protocol">Protocol:</label>
+        <select id="protocol" name="protocol">
+            <option value="tcp">TCP</option>
+            <option value="udp">UDP</option>
+            <option value="both">Both</option>
+        </select><br><br>
+
+        <label for="verbose">Verbose Output:</label>
+        <input type="checkbox" id="verbose" name="verbose"><br><br>
+
+        <button type="submit">Run Scan</button>
+    </form>
+</body>
+</html>
