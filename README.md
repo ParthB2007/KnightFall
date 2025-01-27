@@ -91,10 +91,10 @@ License
 This project is licensed under the MIT License.
 
 ### Screenshots
-![Full Recon CLI](https://github.com/user-attachments/assets/ed059226-7bd4-4f37-aa4e-14fcfe1a1b8d)
-![Open Port Scanner CLI](https://github.com/user-attachments/assets/8400f9e5-d958-42d4-80bf-2a577fff1714)
-![Open Port Scanner GUI](https://github.com/user-attachments/assets/b1691d46-4725-49f7-abf5-91a545e25843)
-![Open Port Scanner Result GUI](https://github.com/user-attachments/assets/f3c3321f-33da-4417-bdff-7c0c8fb1a5b4)
+![Full Recon CLI]()
+![Open Port Scanner CLI]()
+![Open Port Scanner GUI]()
+![Open Port Scanner Result GUI]()
 
 
 ### Contact
